@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #d5cffc;
+        }
+        .container{
+        background-color: #faf3eb;
+        border: 3px solid rgb(70, 36, 36);
+        padding-left: 10px;
+        /* we can set margin and padding top bottom left right */
+        /* padding-top: 79px; */
+        /* padding: 23px 55px 19px 64px; padding/margin: top right bottom left */
+        padding: 34px 19px;        /* padding: y(top/bottom) x(left/right); */
+        margin: 14px 19px;
+        border-radius: 22px;
+        width: 533px;
+        box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nisi cupiditate ex nulla, beatae officia. Reiciendis nesciunt non laudantium nobis impedit odit, consequatur, aliquam molestias nostrum natus hic porro asperiores.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my second heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nisi cupiditate ex nulla, beatae officia. Reiciendis nesciunt non laudantium nobis impedit odit, consequatur, aliquam molestias nostrum natus hic porro asperiores.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my third heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nisi cupiditate ex nulla, beatae officia. Reiciendis nesciunt non laudantium nobis impedit odit, consequatur, aliquam molestias nostrum natus hic porro asperiores.</p>
+    </div>
+</body>
+</html>
